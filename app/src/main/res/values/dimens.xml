@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_bottom">30dp</dimen>
+    <dimen name="small_icon_size">48dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="big_icon_size">76dp</dimen>
+    <dimen name="margin_start_end">16dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="padding_post_card">16dp</dimen>
+    <dimen name="margin_post_card">5dp</dimen>
+    <dimen name="margin_start_footer">24dp</dimen>
+    <dimen name="margin_start_end_post_item">20dp</dimen>
+    <dimen name="margin_top_post_item">10dp</dimen>
+    <dimen name="height_image_size">250dp</dimen>
+</resources>

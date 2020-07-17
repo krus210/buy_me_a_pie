@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_post_card"
+    android:layout_margin="@dimen/margin_post_card"
+    android:background="@drawable/button_with_edge">
+
+    <ImageView
+        android:id="@+id/imageViewPostCard"
+        android:layout_width="@dimen/big_icon_size"
+        android:layout_height="@dimen/big_icon_size"
+        tools:src="@drawable/ic_article_24px"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewElectedPostCard"
+        android:layout_width="@dimen/small_icon_size"
+        android:layout_height="@dimen/small_icon_size"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPostCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPostCard"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/ic_star_border_24px" />
+
+    <TextView
+        android:id="@+id/textViewTitlePostCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPostCard"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewElectedPostCard"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPostCard"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPostCard"
+        tools:text="@string/title"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/colorBlack"
+        android:layout_marginStart="@dimen/margin_start_end"
+        android:layout_marginEnd="@dimen/margin_start_end"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

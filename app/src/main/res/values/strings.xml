@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Buy me a Pie</string>
+    <string name="all_posts">Все обложки</string>
+    <string name="elected">Избранное</string>
+    <string name="title">Заголовок</string>
+    <string name="footer">Footer</string>
+    <string name="show_image">Изображение обложки</string>
+    <string name="author">Автор</string>
+    <string name="description">Описание</string>
+    <string name="fail_io">Ошибка доступа к репозиторию</string>
+    <string name="fail_loading_posts">Ошибка загрузки обложек</string>
+    <string name="at_all">Всего -</string>
+    <string name="last_update">. Последнее обновление</string>
+</resources>
